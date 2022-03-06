@@ -63,5 +63,7 @@ if True :
     print ()
     print ("\033[;096m")
     print ('\033[;096mDone Downloading')
+elif False:
+    print("\033[;091mError Try Again")
 
 
