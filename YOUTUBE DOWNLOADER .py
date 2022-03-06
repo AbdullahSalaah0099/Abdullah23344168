@@ -55,13 +55,13 @@ for I in h+'\n':
 	time.sleep (00.0050)
 print ()
 url=input ('Enter The Video Link > :  ')
-time.sleep (1)
-print("Loading please wait...")
+print ()
+print("\033[;093mLoading please wait...")
 t=pytube.YouTube(url).streams.get_highest_resolution().download('/storage/emulated/0')
 if True :
     time.sleep (3)
     print ()
     print ("\033[;096m")
-    print ('Done Downloading')
+    print ('\033[;096mDone Downloading')
 
 
