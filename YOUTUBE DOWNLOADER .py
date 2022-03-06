@@ -1,10 +1,10 @@
 import pytube
 import os, time, pyfiglet,sys
-os.system ('pip install sys')
+#os.system ('pip install sys')
 os.system('pip install pytube')
 os.system('pip install pyfiglet')
-os.system ('pip install os')
-os.system ('pip install time')
+#os.system ('pip install os')
+#os.system ('pip install time')
 time.sleep (2)
 os.system ('clear')
 time.sleep (3)
