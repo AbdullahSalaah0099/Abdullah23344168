@@ -58,6 +58,7 @@ url=input ('Enter The Video Link > :  ')
 t=pytube.YouTube(url).streams.get_highest_resolution().download('/storage/emulated/0')
 if True :
     time.sleep (3)
+    print("Loading please wait...")
     print ('Done Downloading')
 
 
