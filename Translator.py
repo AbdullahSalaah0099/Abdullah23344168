@@ -1,5 +1,5 @@
 from translate import Translator
-import pyfiglet 
+import pyfiglet,termcolor
 print ("\033[;092m")
 T=pyfiglet.figlet_format ("TRANSLATOR")
 print (T)
