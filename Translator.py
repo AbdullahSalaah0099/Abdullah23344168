@@ -1,7 +1,8 @@
 from translate import Translator
 import pyfiglet 
 print ("\033[;092m")
-pyfiglet.figlet_format ("TRANSLATOR")
+T=pyfiglet.figlet_format ("TRANSLATOR")
+print (T)
 print ('\033[;094m')
 print('■Projected By Abdullah Salah■')
 print ()
