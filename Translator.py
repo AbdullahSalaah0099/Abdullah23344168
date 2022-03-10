@@ -21,7 +21,7 @@ for I in d +'\n':
 	sys.stdout.flush ()
 	time.sleep (00.10)
 print ()
-p=('\033[;092m#### Script Language Translator###')
+p=('\033[;092m#### Script Language Translator ###')
 for I in p+'\n':
 	sys.stdout.write (I)
 	sys.stdout.flush ()
@@ -40,11 +40,10 @@ print ('\033[;092m')
 #	sys.stdout.flush ()
 #	time.sleep (00.020)
 print ()
-i='''\033[;092m Telegram channel : 
+i='''\033[;094m Telegram channel : 
 
   ◇ http://t.me/Techno0099
-
-            
+    
 
 Youttube channel  : 
 
