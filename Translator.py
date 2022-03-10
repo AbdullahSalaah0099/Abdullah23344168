@@ -56,9 +56,10 @@ for I in i +'\n':
 print ('\033[;094m')
 #print('■Projected By Abdullah Salah■')
 print ()
+time.sleep (2)
 print ('\033[;092m')
 lan='''[1] From English To Arabic 
-time.sleep (2)
+
 
 [2] From Arabic To English
 
