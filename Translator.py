@@ -1,26 +1,27 @@
+import sys,time 
 from translate import Translator
 import pyfiglet,termcolor
 from colorama import Fore,Back 
-print ("\033[;092m")
-T=pyfiglet.figlet_format (f"{Fore.RED}TRANSLATE")
+print ("\033[;096m")
+T=pyfiglet.figlet_format ("TRANSLATE")
 for e in T+"\n":
     sys.stdout.write(e)
     sys.stdout.flush ()
-    time.sleep(0.01)
+    time.sleep(0.0080)
 print ("\033[;091m="*60)
-c=('\033[;092m××××××××××××××××××××××××××××××××××××')
+c=('\033[;092m×××××××××××××××××××××××××××××××××××××')
 for I in c+'\n':
 	sys.stdout.write (I)
 	sys.stdout.flush ()
-	time.sleep (00.020)
+	time.sleep (00.010)
 print ()
-d =('\033[;092m#####Welcome To AbdullahScript#####')
+d =('\033[;092m##### Welcome To Abdullah Script####')
 for I in d +'\n':
 	sys.stdout.write (I)
 	sys.stdout.flush ()
 	time.sleep (00.10)
 print ()
-p=('\033[;092m##### Script Translator most Lange #####')
+p=('\033[;092m#### Script Language Translator###')
 for I in p+'\n':
 	sys.stdout.write (I)
 	sys.stdout.flush ()
