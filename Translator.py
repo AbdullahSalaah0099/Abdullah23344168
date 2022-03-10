@@ -60,7 +60,6 @@ time.sleep (2)
 print ('\033[;092m')
 lan='''[1] From English To Arabic 
 
-
 [2] From Arabic To English
 
 [3] From English To france
