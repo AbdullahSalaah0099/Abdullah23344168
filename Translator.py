@@ -2,7 +2,11 @@ from translate import Translator
 import pyfiglet,termcolor
 from colorama import Fore,Back 
 print ("\033[;092m")
-T=pyfiglet.figlet_format (f"{Fore.GREEN}TRANSLATOR")
+T=pyfiglet.figlet_format (f"{Fore.BINK}TRANSLATE")
+for e in T+"\n":
+    sys.stdout.write
+    sys.stdout.flush ()
+    time.sleep(0.01)
 print (T)
 print ('\033[;094m')
 print('■Projected By Abdullah Salah■')
