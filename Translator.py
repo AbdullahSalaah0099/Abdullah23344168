@@ -2,14 +2,59 @@ from translate import Translator
 import pyfiglet,termcolor
 from colorama import Fore,Back 
 print ("\033[;092m")
-T=pyfiglet.figlet_format (f"{Fore.BINK}TRANSLATE")
+T=pyfiglet.figlet_format (f"{Fore.OLYMPIC BLUE}TRANSLATE")
 for e in T+"\n":
-    sys.stdout.write
+    sys.stdout.write(e)
     sys.stdout.flush ()
     time.sleep(0.01)
-print (T)
+print ("\033[;091m="*60)
+c=('\033[;092m××××××××××××××××××××××××××××××××××××')
+for I in c+'\n':
+	sys.stdout.write (I)
+	sys.stdout.flush ()
+	time.sleep (00.020)
+print ()
+d =('\033[;092m#####Welcome To AbdullahScript#####')
+for I in d +'\n':
+	sys.stdout.write (I)
+	sys.stdout.flush ()
+	time.sleep (00.10)
+print ()
+p=('\033[;092m##### Script Translator most Lange #####')
+for I in p+'\n':
+	sys.stdout.write (I)
+	sys.stdout.flush ()
+	time.sleep (00.10)
+print ()
+u=('\033[;092m### Projected By Abdullah Salah###')
+for I in u+'\n':
+	sys.stdout.write (I)
+	sys.stdout.flush ()
+	time.sleep (00.10)
+print ()
+print ('\033[;092m')
+#h=pyfiglet.figlet_format ('ABDULLAH')
+#for I in h+'\n':
+#	sys.stdout.write (I)
+#	sys.stdout.flush ()
+#	time.sleep (00.020)
+print ()
+i='''\033[;092m Telegram channel : 
+
+  ◇ http://t.me/Techno0099
+
+            
+
+Youttube channel  : 
+
+ ◇ https://youtube.com/channel/UCAbtkFAe9yyX0HJNFXyKJUg '''
+for I in i +'\n':
+	sys.stdout.write (I)
+	sys.stdout.flush ()
+	time.sleep (00.030)
+
 print ('\033[;094m')
-print('■Projected By Abdullah Salah■')
+#print('■Projected By Abdullah Salah■')
 print ()
 print ('\033[;092m')
 lan='''[1] From English To Arabic 
