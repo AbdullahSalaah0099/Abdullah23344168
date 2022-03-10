@@ -58,6 +58,7 @@ print ('\033[;094m')
 print ()
 print ('\033[;092m')
 lan='''[1] From English To Arabic 
+time.sleep (2)
 
 [2] From Arabic To English
 
