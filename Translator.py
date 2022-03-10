@@ -2,7 +2,7 @@ from translate import Translator
 import pyfiglet,termcolor
 from colorama import Fore,Back 
 print ("\033[;092m")
-T=pyfiglet.figlet_format (f"{Fore.OLYMPIC BLUE}TRANSLATE")
+T=pyfiglet.figlet_format (f"{Fore.RED}TRANSLATE")
 for e in T+"\n":
     sys.stdout.write(e)
     sys.stdout.flush ()
