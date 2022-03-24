@@ -4,41 +4,42 @@ import pyfiglet,termcolor
 from colorama import Fore,Back 
 print ("\033[;096m")
 T=pyfiglet.figlet_format ("TRANSLATE")
-for e in T+"\n":
+'''for e in T+"\n":
     sys.stdout.write(e)
     sys.stdout.flush ()
     time.sleep(0.0080)
-print ("\033[;091m="*60)
+print ("\033[;091m="*60)'''
+print (T)
 c=('\033[;092m×××××××××××××××××××××××××××××××××××××')
 for I in c+'\n':
 	sys.stdout.write (I)
 	sys.stdout.flush ()
-	time.sleep (00.010)
+	time.sleep (00.0010)
 print ()
 d =('\033[;092m##### Welcome To Abdullah Script####')
 for I in d +'\n':
 	sys.stdout.write (I)
 	sys.stdout.flush ()
-	time.sleep (00.10)
+	time.sleep (00.0010)
 print ()
 p=('\033[;092m#### Script Language Translator ###')
 for I in p+'\n':
 	sys.stdout.write (I)
 	sys.stdout.flush ()
-	time.sleep (00.10)
+	time.sleep (00.0010)
 print ()
 u=('\033[;092m### Projected By Abdullah Salah###')
 for I in u+'\n':
 	sys.stdout.write (I)
 	sys.stdout.flush ()
-	time.sleep (00.10)
+	time.sleep (00.0010)
 print ()
 print ('\033[;092m')
 #h=pyfiglet.figlet_format ('ABDULLAH')
 #for I in h+'\n':
 #	sys.stdout.write (I)
 #	sys.stdout.flush ()
-#	time.sleep (00.020)
+#	time.sleep (00.0020)
 print ()
 i='''\033[;094m Telegram channel : 
 
@@ -51,7 +52,7 @@ Youttube channel  :
 for I in i +'\n':
 	sys.stdout.write (I)
 	sys.stdout.flush ()
-	time.sleep (00.030)
+	time.sleep (00.0030)
 
 print ('\033[;094m')
 #print('■Projected By Abdullah Salah■')
